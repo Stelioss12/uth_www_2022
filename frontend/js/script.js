@@ -330,7 +330,7 @@ function apiCall(method, url, data) {
         status: this.status,
       });
     };
-    switch (method) {
+    switch (method.toLowerCase()) {
       case 'post':
       case 'patch':
       case 'put':
