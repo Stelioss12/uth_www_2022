@@ -1,0 +1,20 @@
+{
+    "name": "wwwuth",
+    "type": "module",
+    "version": "1.0",
+    "description": "WWW Project for UTH",
+    "main": "server.js",
+    "scripts": {
+        "start": "npm run serve",
+        "serve": "node src/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.16.2",
+        "jsonwebtoken": "^9.0.0",
+        "mysql": "^2.18.1",
+        "sqlite3": "^5.1.4"
+    }
+}
